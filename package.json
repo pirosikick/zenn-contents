@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "homepage": "https://github.com/pirosikick/zenn-contents#readme",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "zenn-cli": "^0.1.81"
+  },
+  "lint-staged": {
+    "*.{json,md}": "prettier --write"
+  },
+  "private": true
+}
